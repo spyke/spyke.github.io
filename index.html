@@ -29,7 +29,7 @@
       <section id="main_content" class="inner">
         <p><img src="http://spyke.github.com/images/logo.png" alt="spyke logo"></p>
 
-<p>The latest version will be made available in its own <a href="http://github.com/spyke/spyke">GitHub repository</a> upon acceptance of a submitted paper. Until then, an old version is available <a href="http://swindale.ecc.ubc.ca/spyke">here</a>.</p>
+<p>The latest version of spyke will be made available in its own <a href="http://github.com/spyke/spyke">GitHub repository</a> upon acceptance of a submitted paper. Until then, an old version is available <a href="http://swindale.ecc.ubc.ca/spyke">here</a>.</p>
 
 <p>From the current README:</p>
 
@@ -40,14 +40,18 @@
 <p>spyke requires recent versions of the following to be installed:</p>
 
 <ul>
-<li>Python (2.7.x, 3.x hasn't been tested)</li>
-<li>IPython 1.0.dev</li>
-<li>numpy</li>
-<li>scipy</li>
-<li>matplotlib</li>
-<li>PyQt4 (PySide will probably work, but is untested)</li>
-<li>PyOpenGL</li>
-<li>Cython</li>
+<li>
+<a href="http://python.org">Python</a> (2.7.x, 3.x hasn't been tested)</li>
+<li>
+<a href="http://ipython.org">IPython</a> 1.0.dev</li>
+<li><a href="http://numpy.org">numpy</a></li>
+<li><a href="http://scipy.org">scipy</a></li>
+<li><a href="http://matplotlib.org">matplotlib</a></li>
+<li>
+<a href="http://www.riverbankcomputing.co.uk/software/pyqt">PyQt4</a>
+(<a href="http://pyside.org">PySide</a> will probably work too, but is untested)</li>
+<li><a href="http://pyopengl.sourceforge.net/">PyOpenGL</a></li>
+<li><a href="http://cython.org">Cython</a></li>
 </ul><p>spyke is developed in Xubuntu 12.10. It should work in other Linux distributions.
 In principle, it should also work in Windows and OSX.</p>
 
@@ -55,15 +59,18 @@ In principle, it should also work in Windows and OSX.</p>
 
 <p>To run:</p>
 
-<p><code>$ python main.py # in the spyke folder</code></p>
+<pre><code>$ python main.py # in the spyke folder
+</code></pre>
 
 <p>To install for use as a library:</p>
 
-<p><code>$ python setup.py install</code></p>
+<pre><code>$ python setup.py install
+</code></pre>
 
 <p>To develop:</p>
 
-<p><code>$ python setup.py build_ext --inplace</code></p>
+<pre><code>$ python setup.py build_ext --inplace
+</code></pre>
 
 <p>Many keyboard shortcuts are available. Tooltips give some hints. You can also
 discover them by searching for <code>keyPressEvent</code> methods in the code.</p>
