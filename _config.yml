@@ -1,0 +1,21 @@
+## This file configures your site
+
+# Site name (displayed in the header), access with {{ site.name }}:
+name: spyke
+
+# Site tagline (displayed in the header), access with {{ site.tagline }}:
+tagline: A Python application for visualizing, navigating, and spike sorting high-density multichannel extracellular neuronal waveform data
+
+# Path to GitHub respository, appended to https://github.com/, access with {{ site.repo }}:
+repo: spyke/spyke
+
+## Other configuration options:
+
+#markdown: kramdown # doesn't seem to syntax highlight
+markdown: redcarpet
+highlighter: pygments
+
+# Exclude these files from your production _site:
+exclude:
+    - LICENSE
+    - README.md
