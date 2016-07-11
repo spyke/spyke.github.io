@@ -59,6 +59,5 @@ For more details, see the current [README.md](https://github.com/spyke/spyke#rea
 brief [TUTORIAL.md](https://github.com/spyke/spyke/blob/master/TUTORIAL.md)
 
 [Sample data](http://swindale.ecc.ubc.ca/spyke) is available, as is a [much older version]
-(http://swindale.ecc.ubc.ca/spyke) of spyke, which was described in the paper [Python for
-large-scale electrophysiology]
-(http://www.frontiersin.org/Neuroinformatics/10.3389/neuro.11.009.2008/abstract).
+(http://swindale.ecc.ubc.ca/spyke) of spyke, which was described in the paper
+[Python for large-scale electrophysiology](http://www.frontiersin.org/Neuroinformatics/10.3389/neuro.11.009.2008/abstract).
