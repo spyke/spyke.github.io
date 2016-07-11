@@ -5,7 +5,7 @@ layout: index
 ---
 
 <p align="center"><a href="images/logo.png">
-   <img src="images/logo.png" alt="spyke logo" width=250>
+   <img src="images/logo.png" alt="spyke logo" width="250">
    </a>
 </p>
 
@@ -20,7 +20,7 @@ of the process:
 
 
 <p align="center"><a href="images/spike_sorting_flowchart.png">
-   <img src="images/spike_sorting_flowchart.png" alt="spike sorting flowchart" width=200>
+   <img src="images/spike_sorting_flowchart.png" alt="spike sorting flowchart" width="200">
    </a>
 </p>
 

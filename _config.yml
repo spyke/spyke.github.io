@@ -10,10 +10,8 @@ tagline: A Python application for visualizing, navigating, and spike sorting hig
 repo: spyke/spyke
 
 ## Other configuration options:
-
-#markdown: kramdown # doesn't seem to syntax highlight
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
 # Exclude these files from your production _site:
 exclude:
