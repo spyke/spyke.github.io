@@ -5,7 +5,7 @@ layout: index
 ---
 
 <p align="center"><a href="images/logo.png">
-   <img src="images/logo.png" alt="spyke logo" width=300>
+   <img src="images/logo.png" alt="spyke logo" width=250>
    </a>
 </p>
 
@@ -39,9 +39,9 @@ units found (highlighted in green), 4 are selected (in blue). To their right are
 corresponding mean multichannel waveforms. Selected channels and spike time ranges are
 highlighted by green horizontal lines, shown underneath the waveforms (difficult to see in
 this case). The middle window is a fully manipulable 3D cluster plot of the resulting
-dimension reduced space -- [PCA](http://en.wikipedia.org/wiki/Principal_component_analysis),
+dimension reduced space ([PCA](http://en.wikipedia.org/wiki/Principal_component_analysis),
 [ICA](http://en.wikipedia.org/wiki/Independent_component_analysis), time, and/or spatial
-position) -- with each point representing one spike:
+position) with each point representing one spike:
 
 <p><a href="images/sorted_data.png">
    <img src="images/sorted_data.png" alt="sorted data screenshot">
@@ -59,6 +59,6 @@ For more details, see the current [README.md](https://github.com/spyke/spyke#rea
 brief [TUTORIAL.md](https://github.com/spyke/spyke/blob/master/TUTORIAL.md)
 
 [Sample data](http://swindale.ecc.ubc.ca/spyke) is available, as is a [much older version]
-(http://swindale.ecc.ubc.ca/spyke) of spyke, which was described in the paper
-(http://www.frontiersin.org/Neuroinformatics/10.3389/neuro.11.009.2008/abstract)[Python
-for large-scale electrophysiology].
+(http://swindale.ecc.ubc.ca/spyke) of spyke, which was described in the paper [Python for
+large-scale electrophysiology]
+(http://www.frontiersin.org/Neuroinformatics/10.3389/neuro.11.009.2008/abstract).
