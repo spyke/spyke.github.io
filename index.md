@@ -35,16 +35,18 @@ This screenshot shows how time series voltage waveforms are displayed in spyke:
 windows displaying voltage waveforms. The first two display high-pass spike data in two
 different layouts. The spike window (**left**) displays 1 ms of data in a 2D spatial layout,
 and the chart window (**middle**) displays 50 ms in a 1D vertical layout. The third window
-(**right**) displays 1 s of low-pass LFP data in a 1D vertical layout. All windows can be
-resized. Vertical positions of channels correspond to each other in all 3 windows. The central
-highlighted area in the chart window corresponds to the 1 ms time range in the spike window,
-and the central highlighted area in the LFP window corresponds to the 50 ms time range in the
-chart window. Scrolling through the data in the main window, or clicking a time point on which
-to center a waveform window, updates all 3 waveform windows. Channels are enabled or disabled
-by right-clicking on them. Pointing at a channel displays information such as the channel
-number and its physical position on the polytrode. After spike detection is complete, raster
-lines are superimposed on the time series data (not shown). The displayed data is from this 20
-s long [sample file](http://swindale.ecc.ubc.ca/spyke). Scale bars: 1 ms, 100 µV.
+(**right**) displays 1 s of low-pass
+[LFP](https://en.wikipedia.org/wiki/Local_field_potential) data in a 1D vertical layout. All
+windows can be resized. Vertical positions of channels correspond to each other in all 3
+windows. The central highlighted area in the chart window corresponds to the 1 ms time range
+in the spike window, and the central highlighted area in the LFP window corresponds to the 50
+ms time range in the chart window. Scrolling through the data in the main window, or clicking
+a time point on which to center a waveform window, updates all 3 waveform windows. Channels
+are enabled or disabled by right-clicking on them. Pointing at a channel displays information
+such as the channel number and its physical position on the polytrode. After spike detection
+is complete, raster lines are superimposed on the time series data (not shown). The displayed
+data is from this 20 s long [sample file](http://swindale.ecc.ubc.ca/spyke). Scale bars: 1 ms,
+100 µV.
 
 This second screenshot shows detected spikes being sorted:
 
